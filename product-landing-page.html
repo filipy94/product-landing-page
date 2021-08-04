@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Product Landing Page</title>
+</head>
+<body>
+    <link
+  rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+  integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+  crossorigin="anonymous"
+/>
+<div id="page">
+  <header id="header">
+    <div class="logo">
+      <img id="header-img" src="https://logosmarcas.net/wp-content/uploads/2020/04/Minecraft-Logo.png" alt="Minecraft logo">
+    </div>
+    <nav id="nav-bar">
+      <ul>
+        <li><a class="nav-link" href="#about-game">About Game</a></li>
+        <li><a class="nav-link" href="#gameplay">Gameplay</a></li>
+        <li><a class="nav-link" href="#versions">Versions</a></li>
+      </ul>
+    </nav>
+  </header>
+   
+  <div class="container"></div>
+  
+  <section class="news">
+    <h2>Leave your e-mail to receive more news:</h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+      <input type="email" name="email" id="email" class="form" placeholder="Enter your e-mail" required>
+      <input type="submit" id="submit" class="submit-button" value="Receive News">
+    </form>
+  </section>
+  
+   <div class="container">
+    <section id="about-game">
+      <div class="grid">
+        <div class="icon"><i class="fa fa-map-signs fa-5x"></i></div>
+        <div class="disc">
+          <h2>Explore World</h2>
+          <p>
+            Run through the map exploring our lands, find treasures, biomes and new life forms.
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon"><i class="fa fa-sitemap fa-5x"></i></div>
+        <div class="disc">
+          <h2>Craft Itens</h2>
+          <p>
+            Craft your tools, weapons, equipments. Build everything you want. 
+          </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div class="icon"><i class="fa fa-heart fa-5x"></i></div>
+        <div class="disc">
+          <h2>Fight to Survive</h2>
+          <p>
+            Fight and win against powerful enemies.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section id="gameplay">
+      <iframe id="video" width="727" height="409" src="https://www.youtube.com/embed/MmB9b5njVbA" title="YouTube video player" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <section id="versions">
+      <div class="product" id="java">
+        <div class="edition">Java Edition</div>
+        <h2>$26,95</h2>
+        <ol>
+          <li>Original version.</li>
+          <li>Multi-plataform between Windows, Linux and MacOS</li>
+          <li>Skins</li>
+        </ol>
+        <button class="submit-button">Select</button>
+      </div>
+      <div class="product" id="bedrock">
+        <div class="edition">Bedrock Edition</div>
+        <h2>$19,99</h2>
+        <ol>
+          <li>Created in C++</li>
+          <li>Multi-plataform between consoles</li>
+          <li>Simple version of Java Edition</li>
+        </ol>
+        <button class="submit-button">Select</button>
+      </div>
+      </div>
+    </section>
+  
+  <footer>
+    <ul>
+      <li><a href="#email">Privacy</a></li>
+      <li><a href="#email">Terms</a></li>
+      <li><a href="#email">Contact</a></li>
+    </ul>
+    <span>Copyright 2021, Minecraft</span>
+  </footer>
+    
+</div>
+</body>
+</html>
